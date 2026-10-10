@@ -1,0 +1,111 @@
+incident_id,threat_type,src_ip,first_seen,last_seen,alert_count,targets,total_bytes_out,severity,mitre_attack
+INC-0001,exfiltration,10.0.1.64,2026-01-16 22:00:11.352391478,2026-01-16 22:54:42.604607234,149,2,490992823.0,CRITICAL,T1048 - Exfiltration Over Alternative Protocol
+INC-0002,brute_force,187.76.232.189,2026-01-16 19:00:11.231128186,2026-01-16 19:49:40.459503929,159,2,34886.0,HIGH,T1110 - Brute Force
+INC-0003,brute_force,163.38.152.114,2026-01-16 19:00:29.757399835,2026-01-16 19:48:55.628132038,150,2,33408.0,HIGH,T1110 - Brute Force
+INC-0004,brute_force,201.72.252.54,2026-01-16 19:00:04.990163866,2026-01-16 19:49:07.045894596,142,2,31092.0,HIGH,T1110 - Brute Force
+INC-0005,brute_force,174.110.240.1,2026-01-16 19:00:03.012485328,2026-01-16 19:49:13.835087358,140,2,31783.0,HIGH,T1110 - Brute Force
+INC-0006,dos,212.152.167.217,2026-01-16 02:00:27.532783239,2026-01-16 02:24:52.893218084,97,1,564.0,HIGH,T1498 - Network Denial of Service
+INC-0007,dos,96.180.170.129,2026-01-16 02:00:27.735703662,2026-01-16 02:24:46.126794142,90,1,224.0,HIGH,T1498 - Network Denial of Service
+INC-0008,dos,153.249.147.101,2026-01-16 02:00:17.977730592,2026-01-16 02:24:59.055335061,87,1,342.0,HIGH,T1498 - Network Denial of Service
+INC-0009,dos,168.103.159.107,2026-01-16 02:00:30.746418320,2026-01-16 02:24:58.469942714,87,1,333.0,HIGH,T1498 - Network Denial of Service
+INC-0010,dos,58.146.37.96,2026-01-16 02:00:15.886117855,2026-01-16 02:24:59.657436080,86,1,138.0,HIGH,T1498 - Network Denial of Service
+INC-0011,dos,58.205.127.148,2026-01-16 02:00:35.998275511,2026-01-16 02:24:30.087183267,86,1,214.0,HIGH,T1498 - Network Denial of Service
+INC-0012,dos,130.214.59.75,2026-01-16 02:00:15.082375897,2026-01-16 02:24:37.800984903,83,1,333.0,HIGH,T1498 - Network Denial of Service
+INC-0013,dos,149.248.154.145,2026-01-16 02:00:01.412194165,2026-01-16 02:24:54.784335798,83,1,246.0,HIGH,T1498 - Network Denial of Service
+INC-0014,dos,179.51.172.193,2026-01-16 02:00:16.106716035,2026-01-16 02:24:58.414958227,81,1,298.0,HIGH,T1498 - Network Denial of Service
+INC-0015,dos,49.251.188.240,2026-01-16 02:00:01.935382990,2026-01-16 02:24:59.753278711,81,1,70.0,HIGH,T1498 - Network Denial of Service
+INC-0016,dos,36.82.8.179,2026-01-16 02:00:17.714088981,2026-01-16 02:24:37.818161333,80,1,70.0,HIGH,T1498 - Network Denial of Service
+INC-0017,dos,119.31.88.130,2026-01-16 02:00:10.119747552,2026-01-16 02:24:59.302584103,79,1,293.0,HIGH,T1498 - Network Denial of Service
+INC-0018,dos,87.228.62.176,2026-01-16 02:00:23.838114988,2026-01-16 02:24:14.897443321,79,1,138.0,HIGH,T1498 - Network Denial of Service
+INC-0019,dos,105.105.164.228,2026-01-16 02:01:16.250783641,2026-01-16 02:24:52.248938245,78,1,124.0,HIGH,T1498 - Network Denial of Service
+INC-0020,dos,12.28.219.55,2026-01-16 02:00:12.056854685,2026-01-16 02:23:55.900631522,77,1,211.0,HIGH,T1498 - Network Denial of Service
+INC-0021,dos,127.191.53.20,2026-01-16 02:00:42.304062504,2026-01-16 02:24:43.109712354,77,1,240.0,HIGH,T1498 - Network Denial of Service
+INC-0022,dos,142.71.98.82,2026-01-16 02:00:31.437849093,2026-01-16 02:24:50.250430984,76,1,457.0,HIGH,T1498 - Network Denial of Service
+INC-0023,dos,63.224.26.219,2026-01-16 02:00:14.071107262,2026-01-16 02:24:55.419525151,76,1,51.0,HIGH,T1498 - Network Denial of Service
+INC-0024,dos,213.129.211.194,2026-01-16 02:00:00.352952924,2026-01-16 02:24:41.682304531,73,1,104.0,HIGH,T1498 - Network Denial of Service
+INC-0025,dos,106.139.189.63,2026-01-16 02:00:23.981413689,2026-01-16 02:24:58.987303159,72,1,106.0,HIGH,T1498 - Network Denial of Service
+INC-0026,dos,119.223.60.91,2026-01-16 02:00:49.537040762,2026-01-16 02:24:49.838561484,72,1,281.0,HIGH,T1498 - Network Denial of Service
+INC-0027,dos,151.146.223.133,2026-01-16 02:00:25.655082920,2026-01-16 02:24:15.543101084,68,1,130.0,HIGH,T1498 - Network Denial of Service
+INC-0028,dos,85.80.210.122,2026-01-16 02:00:49.355508526,2026-01-16 02:24:21.246581602,68,1,196.0,HIGH,T1498 - Network Denial of Service
+INC-0029,dos,117.171.174.7,2026-01-16 02:00:42.966855934,2026-01-16 02:24:49.917801274,67,1,381.0,HIGH,T1498 - Network Denial of Service
+INC-0030,dos,123.64.46.26,2026-01-16 02:00:15.586537206,2026-01-16 02:24:56.008247849,63,1,268.0,HIGH,T1498 - Network Denial of Service
+INC-0031,anomaly,146.178.249.188,2026-01-16 14:02:19.677478598,2026-01-16 14:12:54.841746054,25,5,35869.0,HIGH,"Unmapped - possible zero-day, needs analyst review"
+INC-0032,anomaly,10.0.1.52,2026-01-16 02:35:28.575900397,2026-01-16 18:30:39.065830262,4,2,1208389.0,HIGH,"Unmapped - possible zero-day, needs analyst review"
+INC-0033,anomaly,10.0.1.70,2026-01-16 00:39:22.996603921,2026-01-16 08:26:50.423762420,2,2,1228299.0,HIGH,"Unmapped - possible zero-day, needs analyst review"
+INC-0034,brute_force,10.0.1.38,2026-01-16 09:49:08.180704664,2026-01-16 09:49:08.180704664,1,1,266.0,HIGH,T1110 - Brute Force
+INC-0035,exfiltration,10.0.1.90,2026-01-16 10:07:00.104548358,2026-01-16 10:07:00.104548358,1,1,827179.0,HIGH,T1048 - Exfiltration Over Alternative Protocol
+INC-0036,probe,187.198.117.7,2026-01-16 06:00:07.782865482,2026-01-16 06:19:59.294624815,400,5,2289.0,MEDIUM,T1046 - Network Service Discovery
+INC-0037,probe,136.29.188.78,2026-01-16 06:00:04.231025594,2026-01-16 06:19:58.191886365,386,5,2395.0,MEDIUM,T1046 - Network Service Discovery
+INC-0038,anomaly,135.175.55.2,2026-01-16 14:00:49.447038115,2026-01-16 14:14:27.539588660,36,5,52229.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0039,anomaly,78.213.82.191,2026-01-16 14:00:39.466480104,2026-01-16 14:13:41.166897793,34,5,49537.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0040,anomaly,10.0.1.10,2026-01-16 09:00:53.551346832,2026-01-16 17:55:16.057327221,4,3,1104836.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0041,anomaly,10.0.1.11,2026-01-16 07:49:16.277024314,2026-01-16 12:33:59.277929293,3,3,256.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0042,anomaly,10.0.1.119,2026-01-16 08:59:38.946922957,2026-01-16 20:25:04.883900869,3,2,1266399.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0043,anomaly,10.0.1.17,2026-01-16 08:44:35.617133012,2026-01-16 17:29:20.254616296,3,2,3890225.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0044,anomaly,10.0.1.33,2026-01-16 10:37:05.009449452,2026-01-16 19:52:19.736699643,3,2,3802995.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0045,anomaly,10.0.1.42,2026-01-16 10:18:20.250198425,2026-01-16 19:23:51.789614140,3,3,2226.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0046,anomaly,10.0.1.44,2026-01-16 04:41:32.424989597,2026-01-16 18:21:11.364439302,3,3,192.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0047,anomaly,10.0.1.47,2026-01-16 13:32:55.998015372,2026-01-16 15:32:49.684574213,3,2,161.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0048,anomaly,10.0.1.50,2026-01-16 01:26:06.690535201,2026-01-16 21:12:06.228471030,3,3,4518513.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0049,anomaly,10.0.1.76,2026-01-16 07:03:48.081108022,2026-01-16 15:00:27.958137505,3,3,3802.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0050,anomaly,10.0.1.83,2026-01-16 06:50:35.797996860,2026-01-16 14:13:22.520294104,3,3,551175.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0051,anomaly,10.0.1.101,2026-01-16 15:53:30.193480444,2026-01-16 21:19:03.659494675,2,2,2146245.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0052,anomaly,10.0.1.110,2026-01-16 17:24:06.971305923,2026-01-16 22:47:59.905391576,2,2,128.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0053,anomaly,10.0.1.111,2026-01-16 09:17:33.102534430,2026-01-16 10:12:43.406596434,2,2,957919.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0054,anomaly,10.0.1.117,2026-01-16 16:37:53.007504965,2026-01-16 18:49:07.471469849,2,2,434.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0055,anomaly,10.0.1.15,2026-01-16 06:05:22.101364647,2026-01-16 15:02:28.253435377,2,2,567350.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0056,anomaly,10.0.1.25,2026-01-16 11:10:27.882840830,2026-01-16 16:39:09.323680689,2,2,191.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0057,anomaly,10.0.1.26,2026-01-16 08:39:53.291827046,2026-01-16 10:55:49.584879692,2,2,207.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0058,anomaly,10.0.1.38,2026-01-16 04:35:52.530252147,2026-01-16 16:38:21.644739354,2,2,926.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0059,anomaly,10.0.1.53,2026-01-16 07:47:35.704355141,2026-01-16 13:59:32.784454976,2,2,3488437.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0060,anomaly,10.0.1.55,2026-01-16 05:35:47.616312382,2026-01-16 11:52:21.485582040,2,2,179880.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0061,anomaly,10.0.1.66,2026-01-16 12:45:00.761689734,2026-01-16 18:01:58.947784368,2,2,536608.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0062,anomaly,10.0.1.95,2026-01-16 08:02:12.288551662,2026-01-16 10:12:14.030579752,2,2,1575220.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0063,anomaly,10.0.1.102,2026-01-16 16:33:17.117073614,2026-01-16 16:33:17.117073614,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0064,anomaly,10.0.1.103,2026-01-16 11:30:14.271178479,2026-01-16 11:30:14.271178479,1,1,70.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0065,anomaly,10.0.1.105,2026-01-16 18:31:10.257400745,2026-01-16 18:31:10.257400745,1,1,466835.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0066,anomaly,10.0.1.106,2026-01-16 18:41:33.858638026,2026-01-16 18:41:33.858638026,1,1,593378.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0067,anomaly,10.0.1.108,2026-01-16 08:55:57.418243770,2026-01-16 08:55:57.418243770,1,1,3795673.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0068,anomaly,10.0.1.109,2026-01-16 13:23:35.340254877,2026-01-16 13:23:35.340254877,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0069,anomaly,10.0.1.112,2026-01-16 16:45:27.239264570,2026-01-16 16:45:27.239264570,1,1,102.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0070,anomaly,10.0.1.113,2026-01-16 10:27:24.550144371,2026-01-16 10:27:24.550144371,1,1,1045.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0071,anomaly,10.0.1.116,2026-01-16 13:17:25.930662485,2026-01-16 13:17:25.930662485,1,1,1146403.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0072,anomaly,10.0.1.19,2026-01-16 13:53:51.203378469,2026-01-16 13:53:51.203378469,1,1,1376.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0073,anomaly,10.0.1.22,2026-01-16 13:38:13.922230480,2026-01-16 13:38:13.922230480,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0074,anomaly,10.0.1.23,2026-01-16 19:36:35.138548276,2026-01-16 19:36:35.138548276,1,1,33.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0075,anomaly,10.0.1.24,2026-01-16 11:19:00.390661596,2026-01-16 11:19:00.390661596,1,1,953.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0076,anomaly,10.0.1.29,2026-01-16 08:30:59.122273785,2026-01-16 08:30:59.122273785,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0077,anomaly,10.0.1.32,2026-01-16 16:33:28.436726719,2026-01-16 16:33:28.436726719,1,1,574890.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0078,anomaly,10.0.1.35,2026-01-16 07:09:11.381960626,2026-01-16 07:09:11.381960626,1,1,1176.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0079,anomaly,10.0.1.36,2026-01-16 09:08:11.376146321,2026-01-16 09:08:11.376146321,1,1,884980.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0080,anomaly,10.0.1.39,2026-01-16 14:05:14.328065995,2026-01-16 14:05:14.328065995,1,1,333462.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0081,anomaly,10.0.1.4,2026-01-16 18:33:12.190120577,2026-01-16 18:33:12.190120577,1,1,1615390.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0082,anomaly,10.0.1.46,2026-01-16 19:07:31.855157767,2026-01-16 19:07:31.855157767,1,1,4473.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0083,anomaly,10.0.1.48,2026-01-16 14:07:27.203907124,2026-01-16 14:07:27.203907124,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0084,anomaly,10.0.1.49,2026-01-16 12:30:34.973566334,2026-01-16 12:30:34.973566334,1,1,2009000.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0085,anomaly,10.0.1.56,2026-01-16 13:59:32.718887308,2026-01-16 13:59:32.718887308,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0086,anomaly,10.0.1.57,2026-01-16 14:38:06.406204181,2026-01-16 14:38:06.406204181,1,1,190.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0087,anomaly,10.0.1.58,2026-01-16 13:48:53.005925254,2026-01-16 13:48:53.005925254,1,1,291.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0088,anomaly,10.0.1.6,2026-01-16 14:49:17.106414582,2026-01-16 14:49:17.106414582,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0089,anomaly,10.0.1.62,2026-01-16 13:13:54.587268596,2026-01-16 13:13:54.587268596,1,1,756.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0090,anomaly,10.0.1.63,2026-01-16 07:50:16.110280094,2026-01-16 07:50:16.110280094,1,1,181.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0091,anomaly,10.0.1.65,2026-01-16 11:55:16.782841813,2026-01-16 11:55:16.782841813,1,1,1825.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0092,anomaly,10.0.1.67,2026-01-16 16:44:35.013700922,2026-01-16 16:44:35.013700922,1,1,139.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0093,anomaly,10.0.1.69,2026-01-16 19:26:18.931941059,2026-01-16 19:26:18.931941059,1,1,254.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0094,anomaly,10.0.1.7,2026-01-16 13:06:43.315664695,2026-01-16 13:06:43.315664695,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0095,anomaly,10.0.1.73,2026-01-16 15:01:12.104731552,2026-01-16 15:01:12.104731552,1,1,1996.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0096,anomaly,10.0.1.77,2026-01-16 21:44:40.075463694,2026-01-16 21:44:40.075463694,1,1,1677.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0097,anomaly,10.0.1.80,2026-01-16 13:40:02.218915293,2026-01-16 13:40:02.218915293,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0098,anomaly,10.0.1.81,2026-01-16 09:13:34.108750045,2026-01-16 09:13:34.108750045,1,1,2340972.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0099,anomaly,10.0.1.82,2026-01-16 14:14:02.231999560,2026-01-16 14:14:02.231999560,1,1,66.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0100,anomaly,10.0.1.84,2026-01-16 10:23:17.830122212,2026-01-16 10:23:17.830122212,1,1,2241989.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0101,anomaly,10.0.1.85,2026-01-16 17:08:37.328038574,2026-01-16 17:08:37.328038574,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0102,anomaly,10.0.1.86,2026-01-16 10:43:25.751408785,2026-01-16 10:43:25.751408785,1,1,1498.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0103,anomaly,10.0.1.87,2026-01-16 14:39:40.315976845,2026-01-16 14:39:40.315976845,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0104,anomaly,10.0.1.9,2026-01-16 07:26:02.947377219,2026-01-16 07:26:02.947377219,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0105,anomaly,10.0.1.94,2026-01-16 22:23:06.527514979,2026-01-16 22:23:06.527514979,1,1,361625.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0106,anomaly,10.0.1.96,2026-01-16 18:56:48.158201205,2026-01-16 18:56:48.158201205,1,1,751.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0107,anomaly,10.0.1.99,2026-01-16 16:34:58.802367608,2026-01-16 16:34:58.802367608,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0108,anomaly,119.223.60.91,2026-01-16 02:14:58.530340791,2026-01-16 02:14:58.530340791,1,1,64.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0109,anomaly,85.80.210.122,2026-01-16 02:22:50.621822084,2026-01-16 02:22:50.621822084,1,1,690447.0,MEDIUM,"Unmapped - possible zero-day, needs analyst review"
+INC-0110,brute_force,10.0.1.98,2026-01-16 22:05:42.358576446,2026-01-16 22:05:42.358576446,1,1,35.0,MEDIUM,T1110 - Brute Force

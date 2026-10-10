@@ -1,0 +1,219 @@
+{
+  "models": {
+    "logistic_regression": {
+      "accuracy": 0.9851,
+      "precision_macro": 0.9179,
+      "recall_macro": 0.9847,
+      "f1_macro": 0.9454,
+      "f1_weighted": 0.9856,
+      "binary": {
+        "detection_rate_recall": 0.9797,
+        "precision": 0.9645,
+        "false_positive_rate": 0.0128,
+        "true_positives": 1739,
+        "false_positives": 64,
+        "true_negatives": 4936,
+        "false_negatives": 36
+      },
+      "per_class": {
+        "brute_force": {
+          "precision": 0.9021406727828746,
+          "recall": 0.9833333333333333,
+          "f1-score": 0.9409888357256778,
+          "support": 300.0
+        },
+        "dos": {
+          "precision": 1.0,
+          "recall": 0.978,
+          "f1-score": 0.9888776541961577,
+          "support": 1000.0
+        },
+        "exfiltration": {
+          "precision": 0.6944444444444444,
+          "recall": 1.0,
+          "f1-score": 0.819672131147541,
+          "support": 75.0
+        },
+        "normal": {
+          "precision": 0.9927594529364441,
+          "recall": 0.9872,
+          "f1-score": 0.9899719213798637,
+          "support": 5000.0
+        },
+        "probe": {
+          "precision": 1.0,
+          "recall": 0.975,
+          "f1-score": 0.9873417721518988,
+          "support": 400.0
+        },
+        "accuracy": 0.9850922509225092,
+        "macro avg": {
+          "precision": 0.9178689140327526,
+          "recall": 0.9847066666666666,
+          "f1-score": 0.9453704629202277,
+          "support": 6775.0
+        },
+        "weighted avg": {
+          "precision": 0.9869406346642681,
+          "recall": 0.9850922509225092,
+          "f1-score": 0.9856008901121778,
+          "support": 6775.0
+        }
+      }
+    },
+    "random_forest": {
+      "accuracy": 0.9945,
+      "precision_macro": 0.9985,
+      "recall_macro": 0.9873,
+      "f1_macro": 0.9928,
+      "f1_weighted": 0.9945,
+      "binary": {
+        "detection_rate_recall": 0.9792,
+        "precision": 1.0,
+        "false_positive_rate": 0.0,
+        "true_positives": 1738,
+        "false_positives": 0,
+        "true_negatives": 5000,
+        "false_negatives": 37
+      },
+      "per_class": {
+        "brute_force": {
+          "precision": 1.0,
+          "recall": 0.9833333333333333,
+          "f1-score": 0.9915966386554622,
+          "support": 300.0
+        },
+        "dos": {
+          "precision": 1.0,
+          "recall": 0.978,
+          "f1-score": 0.9888776541961577,
+          "support": 1000.0
+        },
+        "exfiltration": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1-score": 1.0,
+          "support": 75.0
+        },
+        "normal": {
+          "precision": 0.9926543577526306,
+          "recall": 1.0,
+          "f1-score": 0.9963136395337252,
+          "support": 5000.0
+        },
+        "probe": {
+          "precision": 1.0,
+          "recall": 0.975,
+          "f1-score": 0.9873417721518988,
+          "support": 400.0
+        },
+        "accuracy": 0.9945387453874539,
+        "macro avg": {
+          "precision": 0.9985308715505262,
+          "recall": 0.9872666666666665,
+          "f1-score": 0.9928259409074489,
+          "support": 6775.0
+        },
+        "weighted avg": {
+          "precision": 0.9945788618100594,
+          "recall": 0.9945387453874539,
+          "f1-score": 0.9945183103058571,
+          "support": 6775.0
+        }
+      }
+    }
+  },
+  "isolation_forest": {
+    "roc_auc": 0.9846,
+    "detection_rate_recall": 0.8513,
+    "precision": 0.9649,
+    "false_positive_rate": 0.011,
+    "threshold": 0.5490469816178248
+  },
+  "model_comparison": {
+    "Logistic Regression": {
+      "Accuracy": 0.985239852398524,
+      "Precision": 0.9645,
+      "Recall": 0.9797,
+      "F1": 0.9720405822446251
+    },
+    "Random Forest": {
+      "Accuracy": 0.9945387453874539,
+      "Precision": 1.0,
+      "Recall": 0.9792,
+      "F1": 0.9894907033144704
+    },
+    "Isolation Forest": {
+      "Accuracy": 0.9529151291512915,
+      "Precision": 0.9649,
+      "Recall": 0.8513,
+      "F1": 0.9045472635172339
+    }
+  },
+  "dataset": {
+    "source": "synthetic",
+    "rows": 27100,
+    "class_counts": {
+      "normal": 20000,
+      "dos": 4000,
+      "probe": 1600,
+      "brute_force": 1200,
+      "exfiltration": 300
+    }
+  },
+  "live_detection": {
+    "connections": 13650,
+    "alerts": 3701,
+    "incidents": 110,
+    "scorecard": [
+      {
+        "label": "normal",
+        "connections": 10000,
+        "alerted": 112,
+        "as_known_attack": 3,
+        "as_anomaly": 109,
+        "alert_rate": 0.0112
+      },
+      {
+        "label": "dos",
+        "connections": 2000,
+        "alerted": 1968,
+        "as_known_attack": 1966,
+        "as_anomaly": 2,
+        "alert_rate": 0.984
+      },
+      {
+        "label": "probe",
+        "connections": 800,
+        "alerted": 786,
+        "as_known_attack": 786,
+        "as_anomaly": 0,
+        "alert_rate": 0.9825
+      },
+      {
+        "label": "brute_force",
+        "connections": 600,
+        "alerted": 591,
+        "as_known_attack": 591,
+        "as_anomaly": 0,
+        "alert_rate": 0.985
+      },
+      {
+        "label": "exfiltration",
+        "connections": 150,
+        "alerted": 149,
+        "as_known_attack": 149,
+        "as_anomaly": 0,
+        "alert_rate": 0.9933
+      },
+      {
+        "label": "anomaly",
+        "connections": 100,
+        "alerted": 95,
+        "as_known_attack": 0,
+        "as_anomaly": 95,
+        "alert_rate": 0.95
+      }
+    ]
+  }
+}
