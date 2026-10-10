@@ -182,6 +182,30 @@ Key insight: the supervised model alone would miss the zero-day completely (it l
 
 Full interactive report: open [`outputs/soc_report.html`](outputs/soc_report.html) in a browser after running.
 
+### Pipeline in action
+
+**1. Simulating traffic** - `python main.py generate`
+![Dataset preview](images/screenshots/01_dataset_preview.png)
+
+**2. Cleaning & feature engineering** - `python scripts/preprocess_demo.py`
+![Preprocessing](images/screenshots/02_preprocessing_output.png)
+
+**3. Training & evaluation** - `python main.py train`
+| Training logs | Evaluation metrics |
+|---|---|
+| ![Training logs](images/screenshots/03_training_logs.png) | ![Metrics](images/screenshots/04_evaluation_metrics.png) |
+
+**4. Threat detection, alerts & incidents** - `python main.py detect`
+![Alerts](images/screenshots/06_alerts_console.png)
+
+**5. Real-time simulation** - `python main.py simulate`
+![Real-time simulation](images/screenshots/09_realtime_simulation.png)
+
+**6. SOC report** (`outputs/soc_report.html`) and **automated tests** (`python -m pytest -v`)
+| SOC report | Tests |
+|---|---|
+| ![SOC report](images/screenshots/07_soc_report.png) | ![pytest](images/screenshots/05_pytest_passed.png) |
+
 ## 📁 Project Structure
 
 ```
@@ -199,6 +223,7 @@ AI-Cybersecurity-Threat-Detection/
 │   ├── visualize.py         # 12 charts
 │   └── report.py            # HTML SOC report
 ├── notebooks/01_exploratory_data_analysis.ipynb
+├── scripts/preprocess_demo.py # shows the cleaning + feature-engineering stage
 ├── tests/test_pipeline.py   # 7 pytest tests
 ├── data/  models/  outputs/  images/  docs/
 ├── requirements.txt  .gitignore  LICENSE  README.md
